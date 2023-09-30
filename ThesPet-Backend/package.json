@@ -1,0 +1,11 @@
+{
+  "name": "thespet-backend",
+  "version": "1.0.0",
+  "description": "Backend for ThesPet App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ThesPet team",
+  "license": "ISC"
+}
