@@ -4,8 +4,17 @@
   "description": "Backend for ThesPet App",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ThesPet team",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
 }
