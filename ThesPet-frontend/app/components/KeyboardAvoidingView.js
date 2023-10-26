@@ -9,7 +9,7 @@ import colors from '../config/colors.js'
 
 const KeyboardAvoidingWrapper = ({ children }) => {
   return (
-    <KeyboardAvoidingView style={{ height:'100%', backgroundColor: colors.primary }}>
+    <KeyboardAvoidingView style={{ height:'100%', backgroundColor: colors.primary}}>
       <ScrollView>
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>{children}</TouchableWithoutFeedback>
       </ScrollView>
