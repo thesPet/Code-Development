@@ -7,7 +7,7 @@ import KeyboardAvoidingWrapper from '../components/KeyboardAvoidingView.js';
 
 const StatusBarHeight = Constants.statusBarHeight;
 
-function LoginPage(props) {
+export default function LoginPage(props) {
     return (
         <KeyboardAvoidingWrapper>
             <ImageBackground source={require('../../assets/Rectangle.png')} style={styles.background}>
@@ -99,5 +99,3 @@ const styles = StyleSheet.create({
         fontSize:20
     }
 })
-
-export default LoginPage;
