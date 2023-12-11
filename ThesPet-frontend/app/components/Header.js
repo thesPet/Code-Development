@@ -35,7 +35,6 @@ export default function ProfileScreen() {
 
 const styles = StyleSheet.create({
  container: {
-   top:StatusBarHeight-15,
    backgroundColor: colors.primary,
  },
  navBar: {
